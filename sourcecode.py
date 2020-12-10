@@ -1,7 +1,7 @@
 import os
 class main:
     def __init__(self):
-        #d={}#'d' is the dictionary in which we store data
+        #d={}
         pass;
         
 
@@ -10,7 +10,7 @@ class main:
 
         
     def create(self):#for create operation
-         d={}
+         d={}#'d' is the dictionary in which we store data
          key=input("ENTER THE KEY(MAXIMUM LENGTH OF 32 AND MUST BE A STRING): ");#user can enter the key value
          filename=key;
          if(len(key)>32):#constraints for input key_name capped at 32char
@@ -63,7 +63,7 @@ class main:
 
     def read(self):#for read operation
         flag=0;
-        d={}
+        d={}#'d' is the dictionary in which we store data
         key=input("ENTER THE KEY NAME: ");
         filename=key;
        
